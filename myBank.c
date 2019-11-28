@@ -1,7 +1,7 @@
 #include "mybank.h"
 #include <stdio.h>
 
-double status_bank [ACCOUNT_LENGHT][ACTIVITY_LENGHT];
+static double status_bank [ACCOUNT_LENGHT][ACTIVITY_LENGHT]={{0}};
 /*
 ACTIVITY_LENGHT[0]=ACCOUNT
 ACTIVITY_LENGHT[1]=STATUS if 0==close 1==open 
